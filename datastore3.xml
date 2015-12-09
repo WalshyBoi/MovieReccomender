@@ -1,0 +1,568 @@
+<object-stream>
+  <java.util.Stack serialization="custom">
+    <unserializable-parents/>
+    <vector>
+      <default>
+        <capacityIncrement>0</capacityIncrement>
+        <elementCount>8</elementCount>
+        <elementData>
+          <null/>
+          <null/>
+          <null/>
+          <null/>
+          <list>
+            <models.User>
+              <firstName>Leonard</firstName>
+              <lastName>Hernandez</lastName>
+              <occupation>technician</occupation>
+              <gender>M</gender>
+              <zipCode>85711</zipCode>
+              <age>24</age>
+              <userID>1</userID>
+              <myRatings>
+                <models.Rating>
+                  <filmID>7</filmID>
+                  <rating>1</rating>
+                  <timetamp>0</timetamp>
+                  <userID>1</userID>
+                  <time>1997-09-22 22:02:19.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>2</filmID>
+                  <rating>5</rating>
+                  <timetamp>0</timetamp>
+                  <userID>1</userID>
+                  <time>1997-09-24 03:40:42.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>5</filmID>
+                  <rating>3</rating>
+                  <timetamp>0</timetamp>
+                  <userID>1</userID>
+                  <time>1997-11-03 07:34:01.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>3</filmID>
+                  <rating>3</rating>
+                  <timetamp>0</timetamp>
+                  <userID>1</userID>
+                  <time>1997-11-03 07:38:19.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>10</filmID>
+                  <rating>3</rating>
+                  <timetamp>0</timetamp>
+                  <userID>1</userID>
+                  <time>1998-02-14 04:51:23.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>9</filmID>
+                  <rating>1</rating>
+                  <timetamp>0</timetamp>
+                  <userID>1</userID>
+                  <time>1998-03-01 06:15:28.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>1</filmID>
+                  <rating>5</rating>
+                  <timetamp>0</timetamp>
+                  <userID>1</userID>
+                  <time>1998-03-13 01:15:11.0 UTC</time>
+                </models.Rating>
+              </myRatings>
+            </models.User>
+            <models.User>
+              <firstName>Melody</firstName>
+              <lastName>Roberson</lastName>
+              <occupation>other</occupation>
+              <gender>F</gender>
+              <zipCode>94043</zipCode>
+              <age>53</age>
+              <userID>2</userID>
+              <myRatings>
+                <models.Rating>
+                  <filmID>2</filmID>
+                  <rating>3</rating>
+                  <timetamp>0</timetamp>
+                  <userID>2</userID>
+                  <time>1998-02-27 03:39:34.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>7</filmID>
+                  <rating>3</rating>
+                  <timetamp>0</timetamp>
+                  <userID>2</userID>
+                  <time>1998-02-27 03:41:11.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>3</filmID>
+                  <rating>3</rating>
+                  <timetamp>0</timetamp>
+                  <userID>2</userID>
+                  <time>1998-02-27 03:58:42.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>10</filmID>
+                  <rating>5</rating>
+                  <timetamp>0</timetamp>
+                  <userID>2</userID>
+                  <time>1998-02-27 04:01:24.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>4</filmID>
+                  <rating>-5</rating>
+                  <timetamp>0</timetamp>
+                  <userID>2</userID>
+                  <time>1998-03-04 02:54:45.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>1</filmID>
+                  <rating>1</rating>
+                  <timetamp>0</timetamp>
+                  <userID>2</userID>
+                  <time>1998-03-04 02:57:20.0 UTC</time>
+                </models.Rating>
+              </myRatings>
+            </models.User>
+            <models.User>
+              <firstName>Gregory</firstName>
+              <lastName>Newton</lastName>
+              <occupation>writer</occupation>
+              <gender>M</gender>
+              <zipCode>32067</zipCode>
+              <age>23</age>
+              <userID>3</userID>
+              <myRatings>
+                <models.Rating>
+                  <filmID>7</filmID>
+                  <rating>-5</rating>
+                  <timetamp>0</timetamp>
+                  <userID>3</userID>
+                  <time>1998-03-07 02:16:23.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>2</filmID>
+                  <rating>-5</rating>
+                  <timetamp>0</timetamp>
+                  <userID>3</userID>
+                  <time>1998-03-07 02:20:24.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>4</filmID>
+                  <rating>-3</rating>
+                  <timetamp>0</timetamp>
+                  <userID>3</userID>
+                  <time>1998-03-07 02:20:24.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>3</filmID>
+                  <rating>-3</rating>
+                  <timetamp>0</timetamp>
+                  <userID>3</userID>
+                  <time>1998-03-07 02:21:09.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>5</filmID>
+                  <rating>-5</rating>
+                  <timetamp>0</timetamp>
+                  <userID>3</userID>
+                  <time>1998-03-07 02:21:09.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>1</filmID>
+                  <rating>3</rating>
+                  <timetamp>0</timetamp>
+                  <userID>3</userID>
+                  <time>1998-03-07 02:24:15.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>8</filmID>
+                  <rating>5</rating>
+                  <timetamp>0</timetamp>
+                  <userID>3</userID>
+                  <time>1998-03-07 02:24:15.0 UTC</time>
+                </models.Rating>
+              </myRatings>
+            </models.User>
+            <models.User>
+              <firstName>Oliver</firstName>
+              <lastName>George</lastName>
+              <occupation>technician</occupation>
+              <gender>M</gender>
+              <zipCode>43537</zipCode>
+              <age>24</age>
+              <userID>4</userID>
+              <myRatings>
+                <models.Rating>
+                  <filmID>8</filmID>
+                  <rating>3</rating>
+                  <timetamp>0</timetamp>
+                  <userID>4</userID>
+                  <time>1998-04-08 02:10:45.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>3</filmID>
+                  <rating>5</rating>
+                  <timetamp>0</timetamp>
+                  <userID>4</userID>
+                  <time>1998-04-08 02:25:52.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>1</filmID>
+                  <rating>5</rating>
+                  <timetamp>0</timetamp>
+                  <userID>4</userID>
+                  <time>1998-04-08 02:25:53.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>6</filmID>
+                  <rating>1</rating>
+                  <timetamp>0</timetamp>
+                  <userID>4</userID>
+                  <time>1998-04-08 02:44:19.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>7</filmID>
+                  <rating>3</rating>
+                  <timetamp>0</timetamp>
+                  <userID>4</userID>
+                  <time>1998-04-08 02:45:25.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>10</filmID>
+                  <rating>3</rating>
+                  <timetamp>0</timetamp>
+                  <userID>4</userID>
+                  <time>1998-04-08 02:57:55.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>4</filmID>
+                  <rating>5</rating>
+                  <timetamp>0</timetamp>
+                  <userID>4</userID>
+                  <time>1998-04-08 03:00:09.0 UTC</time>
+                </models.Rating>
+              </myRatings>
+            </models.User>
+            <models.User>
+              <firstName>Jenna</firstName>
+              <lastName>Parker</lastName>
+              <occupation>other</occupation>
+              <gender>F</gender>
+              <zipCode>15213</zipCode>
+              <age>33</age>
+              <userID>5</userID>
+              <myRatings>
+                <models.Rating>
+                  <filmID>3</filmID>
+                  <rating>1</rating>
+                  <timetamp>0</timetamp>
+                  <userID>5</userID>
+                  <time>1997-09-30 16:00:25.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>5</filmID>
+                  <rating>-3</rating>
+                  <timetamp>0</timetamp>
+                  <userID>5</userID>
+                  <time>1997-09-30 16:08:43.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>1</filmID>
+                  <rating>3</rating>
+                  <timetamp>0</timetamp>
+                  <userID>5</userID>
+                  <time>1997-09-30 16:09:08.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>2</filmID>
+                  <rating>1</rating>
+                  <timetamp>0</timetamp>
+                  <userID>5</userID>
+                  <time>1997-09-30 16:14:13.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>7</filmID>
+                  <rating>3</rating>
+                  <timetamp>0</timetamp>
+                  <userID>5</userID>
+                  <time>1997-09-30 16:16:38.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>10</filmID>
+                  <rating>-5</rating>
+                  <timetamp>0</timetamp>
+                  <userID>5</userID>
+                  <time>1997-09-30 16:21:33.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>8</filmID>
+                  <rating>1</rating>
+                  <timetamp>0</timetamp>
+                  <userID>5</userID>
+                  <time>1997-10-01 15:44:51.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>4</filmID>
+                  <rating>-5</rating>
+                  <timetamp>0</timetamp>
+                  <userID>5</userID>
+                  <time>1997-10-01 15:57:12.0 UTC</time>
+                </models.Rating>
+                <models.Rating>
+                  <filmID>9</filmID>
+                  <rating>-5</rating>
+                  <timetamp>0</timetamp>
+                  <userID>5</userID>
+                  <time>1997-11-06 19:27:03.0 UTC</time>
+                </models.Rating>
+              </myRatings>
+            </models.User>
+          </list>
+          <list>
+            <models.Movie>
+              <title>Toy Story (1995)</title>
+              <date>01-Jan-1995</date>
+              <imdbLink>http://us.imdb.com/M/title-exact?Toy%20Story%20(1995)</imdbLink>
+              <filmId>1</filmId>
+              <rating>3</rating>
+              <amountOfRatings>5</amountOfRatings>
+              <genres>
+                <string>Animation</string>
+                <string>Children&apos;s</string>
+                <string>Comedy</string>
+              </genres>
+            </models.Movie>
+            <models.Movie>
+              <title>GoldenEye (1995)</title>
+              <date>01-Jan-1995</date>
+              <imdbLink>http://us.imdb.com/M/title-exact?GoldenEye%20(1995)</imdbLink>
+              <filmId>2</filmId>
+              <rating>1</rating>
+              <amountOfRatings>4</amountOfRatings>
+              <genres>
+                <string>Action</string>
+                <string>Adventure</string>
+                <string>Thriller</string>
+              </genres>
+            </models.Movie>
+            <models.Movie>
+              <title>Four Rooms (1995)</title>
+              <date>01-Jan-1995</date>
+              <imdbLink>http://us.imdb.com/M/title-exact?Four%20Rooms%20(1995)</imdbLink>
+              <filmId>3</filmId>
+              <rating>1</rating>
+              <amountOfRatings>5</amountOfRatings>
+              <genres>
+                <string>Thriller</string>
+              </genres>
+            </models.Movie>
+            <models.Movie>
+              <title>Get Shorty (1995)</title>
+              <date>01-Jan-1995</date>
+              <imdbLink>http://us.imdb.com/M/title-exact?Get%20Shorty%20(1995)</imdbLink>
+              <filmId>4</filmId>
+              <rating>-2</rating>
+              <amountOfRatings>4</amountOfRatings>
+              <genres>
+                <string>Action</string>
+                <string>Comedy</string>
+                <string>Drama</string>
+              </genres>
+            </models.Movie>
+            <models.Movie>
+              <title>Copycat (1995)</title>
+              <date>01-Jan-1995</date>
+              <imdbLink>http://us.imdb.com/M/title-exact?Copycat%20(1995)</imdbLink>
+              <filmId>5</filmId>
+              <rating>-1</rating>
+              <amountOfRatings>3</amountOfRatings>
+              <genres>
+                <string>Crime</string>
+                <string>Drama</string>
+                <string>Thriller</string>
+              </genres>
+            </models.Movie>
+            <models.Movie>
+              <title>Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)</title>
+              <date>01-Jan-1995</date>
+              <imdbLink>http://us.imdb.com/Title?Yao+a+yao+yao+dao+waipo+qiao+(1995)</imdbLink>
+              <filmId>6</filmId>
+              <rating>1</rating>
+              <amountOfRatings>1</amountOfRatings>
+              <genres>
+                <string>Drama</string>
+              </genres>
+            </models.Movie>
+            <models.Movie>
+              <title>Twelve Monkeys (1995)</title>
+              <date>01-Jan-1995</date>
+              <imdbLink>http://us.imdb.com/M/title-exact?Twelve%20Monkeys%20(1995)</imdbLink>
+              <filmId>7</filmId>
+              <rating>1</rating>
+              <amountOfRatings>5</amountOfRatings>
+              <genres>
+                <string>Drama</string>
+                <string>Sci-Fi</string>
+              </genres>
+            </models.Movie>
+            <models.Movie>
+              <title>Babe (1995)</title>
+              <date>01-Jan-1995</date>
+              <imdbLink>http://us.imdb.com/M/title-exact?Babe%20(1995)</imdbLink>
+              <filmId>8</filmId>
+              <rating>3</rating>
+              <amountOfRatings>3</amountOfRatings>
+              <genres>
+                <string>Children&apos;s</string>
+                <string>Comedy</string>
+                <string>Drama</string>
+              </genres>
+            </models.Movie>
+            <models.Movie>
+              <title>Dead Man Walking (1995)</title>
+              <date>01-Jan-1995</date>
+              <imdbLink>http://us.imdb.com/M/title-exact?Dead%20Man%20Walking%20(1995)</imdbLink>
+              <filmId>9</filmId>
+              <rating>-2</rating>
+              <amountOfRatings>2</amountOfRatings>
+              <genres>
+                <string>Drama</string>
+              </genres>
+            </models.Movie>
+            <models.Movie>
+              <title>Richard III (1995)</title>
+              <date>22-Jan-1996</date>
+              <imdbLink>http://us.imdb.com/M/title-exact?Richard%20III%20(1995)</imdbLink>
+              <filmId>10</filmId>
+              <rating>1</rating>
+              <amountOfRatings>4</amountOfRatings>
+              <genres>
+                <string>Drama</string>
+                <string>War</string>
+              </genres>
+            </models.Movie>
+          </list>
+          <list>
+            <models.Genre>
+              <genreName>unknown</genreName>
+              <genreId>0</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>Action</genreName>
+              <genreId>1</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>Adventure</genreName>
+              <genreId>2</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>Animation</genreName>
+              <genreId>3</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>Children&apos;s</genreName>
+              <genreId>4</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>Comedy</genreName>
+              <genreId>5</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>Crime</genreName>
+              <genreId>6</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>Documentary</genreName>
+              <genreId>7</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>Drama</genreName>
+              <genreId>8</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>Fantasy</genreName>
+              <genreId>9</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>Film-Noir</genreName>
+              <genreId>10</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>Horror</genreName>
+              <genreId>11</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>Musical</genreName>
+              <genreId>12</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>Mystery</genreName>
+              <genreId>13</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>Romance</genreName>
+              <genreId>14</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>Sci-Fi</genreName>
+              <genreId>15</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>Thriller</genreName>
+              <genreId>16</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>War</genreName>
+              <genreId>17</genreId>
+            </models.Genre>
+            <models.Genre>
+              <genreName>Western</genreName>
+              <genreId>18</genreId>
+            </models.Genre>
+          </list>
+          <list>
+            <models.Rating reference="../../list/models.User/myRatings/models.Rating"/>
+            <models.Rating reference="../../list/models.User/myRatings/models.Rating[2]"/>
+            <models.Rating reference="../../list/models.User[5]/myRatings/models.Rating"/>
+            <models.Rating reference="../../list/models.User[5]/myRatings/models.Rating[2]"/>
+            <models.Rating reference="../../list/models.User[5]/myRatings/models.Rating[3]"/>
+            <models.Rating reference="../../list/models.User[5]/myRatings/models.Rating[4]"/>
+            <models.Rating reference="../../list/models.User[5]/myRatings/models.Rating[5]"/>
+            <models.Rating reference="../../list/models.User[5]/myRatings/models.Rating[6]"/>
+            <models.Rating reference="../../list/models.User[5]/myRatings/models.Rating[7]"/>
+            <models.Rating reference="../../list/models.User[5]/myRatings/models.Rating[8]"/>
+            <models.Rating reference="../../list/models.User/myRatings/models.Rating[3]"/>
+            <models.Rating reference="../../list/models.User/myRatings/models.Rating[4]"/>
+            <models.Rating reference="../../list/models.User[5]/myRatings/models.Rating[9]"/>
+            <models.Rating reference="../../list/models.User/myRatings/models.Rating[5]"/>
+            <models.Rating reference="../../list/models.User[2]/myRatings/models.Rating"/>
+            <models.Rating reference="../../list/models.User[2]/myRatings/models.Rating[2]"/>
+            <models.Rating reference="../../list/models.User[2]/myRatings/models.Rating[3]"/>
+            <models.Rating reference="../../list/models.User[2]/myRatings/models.Rating[4]"/>
+            <models.Rating reference="../../list/models.User/myRatings/models.Rating[6]"/>
+            <models.Rating reference="../../list/models.User[2]/myRatings/models.Rating[5]"/>
+            <models.Rating reference="../../list/models.User[2]/myRatings/models.Rating[6]"/>
+            <models.Rating reference="../../list/models.User[3]/myRatings/models.Rating"/>
+            <models.Rating reference="../../list/models.User[3]/myRatings/models.Rating[2]"/>
+            <models.Rating reference="../../list/models.User[3]/myRatings/models.Rating[3]"/>
+            <models.Rating reference="../../list/models.User[3]/myRatings/models.Rating[4]"/>
+            <models.Rating reference="../../list/models.User[3]/myRatings/models.Rating[5]"/>
+            <models.Rating reference="../../list/models.User[3]/myRatings/models.Rating[6]"/>
+            <models.Rating reference="../../list/models.User[3]/myRatings/models.Rating[7]"/>
+            <models.Rating reference="../../list/models.User/myRatings/models.Rating[7]"/>
+            <models.Rating reference="../../list/models.User[4]/myRatings/models.Rating"/>
+            <models.Rating reference="../../list/models.User[4]/myRatings/models.Rating[2]"/>
+            <models.Rating reference="../../list/models.User[4]/myRatings/models.Rating[3]"/>
+            <models.Rating reference="../../list/models.User[4]/myRatings/models.Rating[4]"/>
+            <models.Rating reference="../../list/models.User[4]/myRatings/models.Rating[5]"/>
+            <models.Rating reference="../../list/models.User[4]/myRatings/models.Rating[6]"/>
+            <models.Rating reference="../../list/models.User[4]/myRatings/models.Rating[7]"/>
+          </list>
+          <null/>
+          <null/>
+        </elementData>
+      </default>
+    </vector>
+  </java.util.Stack>
+</object-stream>
