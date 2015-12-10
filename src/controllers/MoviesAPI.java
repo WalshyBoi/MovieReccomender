@@ -21,7 +21,7 @@ import models.Genre;
 import models.Rating;
 
 
-// TODO: Auto-generated Javadoc
+
 /*************************************************************************
  * Compilation: java MoviesAPI.java
  * 
@@ -219,15 +219,7 @@ public class MoviesAPI {
 
 		ratings = removeRatings;
 	}
-
-
-
-
-
-
-
-
-
+	
 	/**
 	 * This creates a new arrayList called top10 
 	 * first given the objects from the movies arrayList.
@@ -438,7 +430,7 @@ public class MoviesAPI {
 			Movie movie = getMovie(rating.getFilmID());
 			ArrayList<String> movieGenres = movie.getGenres();
 			
-			int movieID = movie.getFilmId();
+			
 			ArrayList<Movie> topFilm = new ArrayList<Movie>();
 		
 				for(Movie currentMovie: movies){

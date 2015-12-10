@@ -80,6 +80,7 @@ public class User {
 		this.myRatings = myRatings;
 	}
 
+	
 
 	public void setUserID(long userID) {
 		this.userID = userID;

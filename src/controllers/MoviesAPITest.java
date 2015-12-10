@@ -13,24 +13,42 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class MoviesAPITest.
+ */
 public class MoviesAPITest {
 
-	 private MoviesAPI likeMovies;
+	 /** The like movies. */
+ 	private MoviesAPI likeMovies;
 	 
 	
 
+	/**
+	 * Sets the up.
+	 *
+	 * @throws Exception the exception
+	 */
 	@Before
 	public void setUp() throws Exception {
 		likeMovies = new MoviesAPI();
 		likeMovies.prime();
 	}
 
+	/**
+	 * Tear down.
+	 *
+	 * @throws Exception the exception
+	 */
 	@After
 	public void tearDown() throws Exception {
 		likeMovies = null;
 	}
 
-	 @Test
+	 /**
+ 	 * Test add user.
+ 	 */
+ 	@Test
 	  public void testAddUser()
 	  {
 	    int size = likeMovies.getUsers().size()+1;
@@ -41,7 +59,11 @@ public class MoviesAPITest {
 	  }  
 	 
 	 
-	 @Test
+	 /**
+ 	 * Test add movie. his test follows the CORRECT guidelines specifically
+ 	 * Conformance, Reference,Existence and Cardinality. It also covers Right.
+ 	 */
+ 	@Test
 	  public void testAddMovie()
 	  {
 	    int size = likeMovies.getMovies().size()+1;
@@ -53,7 +75,11 @@ public class MoviesAPITest {
 
 	 
 	 
-	 @Test
+	 /**
+ 	 * Test remove user. This test follows the CORRECT guidelines specifically
+ 	 * Conformance, Reference,Existence and Cardinality. It also covers Right as well.
+ 	 */
+ 	@Test
 	  public void testRemoveUser()
 	  {
 	    int size = likeMovies.getUsers().size()-1;
@@ -63,16 +89,49 @@ public class MoviesAPITest {
 	   
 	  }  
 	 
-	 @Test
+	 /**
+ 	 * Gets the movie details.
+ 	 * This test follows the CORRECT guidelines specifically
+ 	 * Conformance, Range, Reference,Existence and Cardinality
+ 	 *
+ 	 * @return the movie details
+ 	 */
+ 	@Test
 	  public void getMovieDetails()
 	  
 	  {
-		  String str = "Toy Story (1995)";
-		  String actual = likeMovies.movies.get(0).getTitle();
-		  assertEquals(str, actual);
+		  String title = "Toy Story (1995)";
+		  int filmId = 1;
+		  String date = "01-Jan-1995";
+		  String imdbLink = "http://us.imdb.com/M/title-exact?Toy%20Story%20(1995)"; 
+		  int genreArraySize = 3;
+		  
+		  String actualTitle = likeMovies.movies.get(0).getTitle();
+		  String actualDate =  likeMovies.movies.get(0).getDate();
+		  int actualFilmID = likeMovies.movies.get(0).getFilmId();
+		  String actualIMDB = likeMovies.movies.get(0).getImdbLink();
+		  int actualGenreSize = likeMovies.movies.get(0).getGenres().size();
+		  
+		  assertEquals(title, actualTitle);
+		  assertEquals(date, actualDate);
+		  assertEquals(imdbLink, actualIMDB);
+		  assertEquals(filmId, actualFilmID);
+		  assertEquals(genreArraySize, actualGenreSize);
 		  
 	  }
 	 
-	 getUserRating(int userID)
-	 
+	 /**
+ 	 * Gets the user rating.
+ 	 * This test follows the CORRECT guidelines specifically
+ 	 * Conformance, Range, Reference,Existence and Cardinality
+ 	 *
+ 	 * @param userID the user id
+ 	 * @return the user rating
+ 	 */
+ public void testGetUserRating(int userID){
+	 int ratingsArraySize = likeMovies.getUsers().get(0).getMyRatings().size();
+	 int actual = 6;
+	 assertEquals(ratingsArraySize, actual);
+}
+ 	
 }

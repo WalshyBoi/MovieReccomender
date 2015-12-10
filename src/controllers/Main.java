@@ -11,7 +11,17 @@ import asg.cliche.Param;
 import asg.cliche.Shell;
 import asg.cliche.ShellFactory;
 import models.User;
-
+/*************************************************************************
+ * Compilation: java Main.java
+ * 
+ * The <tt>Main</tt> class
+ * <p>
+ * This class will be used to create a command shell and create an 
+ * instance of the MoviesAPI.
+ * 
+ * 
+ * @author David Walsh
+ *************************************************************************/
 public class Main
 {
   public MoviesAPI likeMovies;
@@ -35,7 +45,7 @@ public class Main
   public static void main(String[] args) throws Exception
   {	
 	  Main main = new Main();
-	  Shell shell = ShellFactory.createConsoleShell("lm", "Welcome to likemovies - ?help for instructions", main);
+	  Shell shell = ShellFactory.createConsoleShell("dw", "Welcome to David Walsh's Movie Reccomender! ?help for instructions", main);
 	  shell.commandLoop();
   }
   
