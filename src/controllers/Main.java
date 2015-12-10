@@ -104,6 +104,12 @@ public class Main
    
  }
  
+ @Command(description="Get a users details")
+ public void getUser(@Param(name="indexNumber") int i) throws Exception
+ {
+   System.out.println(likeMovies.getUsers().get(i));
+   
+ }
  @Command(description="Get the Top 10 Movies")
  public void getTop10() throws Exception
  {

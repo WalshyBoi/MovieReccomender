@@ -17,7 +17,18 @@ import models.Movie;
 import models.Rating;
 import models.User;
 import edu.princeton.cs.introcs.In;
-
+/*************************************************************************
+ * Compilation: java CVSLoader.java
+ * 
+ * The <tt>CVSLoader</tt> class
+ * <p>
+ * This class will be used to create a object of CVS Loader that can 
+ * be used by other class to pass a filename through which will then 
+ * be read in / parsed to create objects and populate the arrays.
+ * 
+ * 
+ * @author David Walsh
+ *************************************************************************/
 public class CSVLoader
 { private ArrayList<User> users;
 private ArrayList<Movie> movies;
