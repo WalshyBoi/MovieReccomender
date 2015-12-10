@@ -398,8 +398,15 @@ public class MoviesAPI {
 	}
 
 		
+	/**
+	 * Returns all the users ratings in a order list
+	 * based on their rating.
+	 *
+	 * @param userID the user id
+	 * @return the array list
+	 */
 	public ArrayList<Rating> recommend(long userID){
-		ArrayList<Rating> reccomend = new ArrayList();
+		ArrayList<Rating> reccomend = new ArrayList<Rating>();
 		for (User user: users){
 			if(user.getUserID()==userID){
 			reccomend = user.getMyRatings();
@@ -418,6 +425,16 @@ public class MoviesAPI {
 	}
 
 
+	/**
+	 * Gets the user recommendations.
+	 * This recommender works by using the users top rated film as a reference 
+	 * guide to fill an array of films based of that top rated films genres.
+	 * The array is sorted and returned which then the 0th loaction is to be printed out which will
+	 * be the users top reccomended film.
+	 *
+	 * @param userID the user id
+	 * @return the user recommendations
+	 */
 	public ArrayList<Movie> getUserRecommendations(long userID){
 			ArrayList<Rating> reccomend1 = new ArrayList();
 			reccomend1 = recommend(userID);
@@ -428,11 +445,17 @@ public class MoviesAPI {
 			
 			//gets their highest rated film
 			Movie movie = getMovie(rating.getFilmID());
+			
+			//gets all the genres of their highest film
 			ArrayList<String> movieGenres = movie.getGenres();
 			
-			
+			//creates a new array to be filled with their top films
 			ArrayList<Movie> topFilm = new ArrayList<Movie>();
 		
+			//This passes through the movies array while cross reference the genres of the users top
+			//film with the films in the movies. If they have the same genre and are not the same film
+			//it will add them to the top film array 
+			
 				for(Movie currentMovie: movies){
 					for(int i = 0; i<currentMovie.getGenres().size(); i++ ){
 						for(int k = 0; k<movieGenres.size(); k++){
@@ -449,7 +472,7 @@ public class MoviesAPI {
 				Collections.sort(topFilm, new Comparator<Movie>(){ 
 					public int compare(Movie o1, Movie o2) {
 						return o2.getRating() - o1.getRating(); 
-						//My implementation
+						//My implementation to sort the array
 					}
 				});
 			  

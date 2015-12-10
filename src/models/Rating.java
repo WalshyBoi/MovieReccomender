@@ -1,6 +1,17 @@
 package models;
 import java.util.Date;
 public class Rating implements Comparable<Rating>{
+	/*************************************************************************
+	 * Compilation: java User.java
+	 * 
+	 * The <tt>Rating</tt> class
+	 * <p>
+	 * This class will be used to create an object of Rating based on
+	 * the parameters laid out below
+	 * 
+	 * 
+	 * @author David Walsh
+	 *************************************************************************/
 	
 
 	private int filmID,rating;

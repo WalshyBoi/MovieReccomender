@@ -4,6 +4,17 @@ import java.util.ArrayList;
 import com.google.common.base.Objects;
 
 import utils.ToJsonString;
+/*************************************************************************
+ * Compilation: java User.java
+ * 
+ * The <tt>Movie</tt> class
+ * <p>
+ * This class will be used to create an object of Movie based on
+ * the parameters laid out below
+ * 
+ * 
+ * @author David Walsh
+ *************************************************************************/
 
 
 public class Movie  {

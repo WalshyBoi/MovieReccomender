@@ -3,7 +3,7 @@ package controllers;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotSame;
-
+import models.Rating;
 import models.User;
 
 import org.junit.Assert;
@@ -120,18 +120,28 @@ public class MoviesAPITest {
 		  
 	  }
 	 
-	 /**
- 	 * Gets the user rating.
- 	 * This test follows the CORRECT guidelines specifically
- 	 * Conformance, Range, Reference,Existence and Cardinality
- 	 *
- 	 * @param userID the user id
- 	 * @return the user rating
+
+
+ 	 /**
+ 	 * This test's the get user rating but also tests the setRatings method 
+ 	 * for the ratings array.
+	  * This test follows the CORRECT guidelines specifically
+	  * Conformance, Range, Reference,Existence and Cardinality
+	  *
+	  * @param userID the user id
+	  * @return the user rating
  	 */
- public void testGetUserRating(int userID){
-	 int ratingsArraySize = likeMovies.getUsers().get(0).getMyRatings().size();
-	 int actual = 6;
-	 assertEquals(ratingsArraySize, actual);
-}
- 	
+ 	@Test
+	  public void getUserRating()
+	  
+	  {
+ 		
+ 		int i =0;
+ 		Rating rating = new Rating(i,i,i,i);
+ 		likeMovies.getUsers().get(0).getMyRatings().add(rating);
+ 		int ratingsArraySize = likeMovies.getUsers().get(0).getMyRatings().size();
+ 		int actual = 1;
+ 		assertEquals(ratingsArraySize, actual);
+		  
+	  }
 }

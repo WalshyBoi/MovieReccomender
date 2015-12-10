@@ -4,7 +4,17 @@ import java.util.ArrayList;
 import utils.ToJsonString;
 
 import com.google.common.base.Objects;
-
+/*************************************************************************
+ * Compilation: java User.java
+ * 
+ * The <tt>User</tt> class
+ * <p>
+ * This class will be used to create an object of User based on
+ * the parameters laid out below
+ * 
+ * 
+ * @author David Walsh
+ *************************************************************************/
 
 public class User {
 	private String firstName,lastName,occupation,gender,zipCode;
@@ -154,23 +164,7 @@ public class User {
 		this.age = age;
 	}
 
-
-	
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
 
 
 
